@@ -1,20 +1,10 @@
-#banner {
-	position: absolute;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-	margin: 0px;
-	background-repeat: repeat-x;
-    height: 10px;
-    z-index: -1;
-}
-
 body {
-	margin:300px 0 200px 150px;
+	background:url("../images/stripes.png"), url("../images/background.jpg");
 	background-color: #52596a;
-	background-image: url("background.jpg");
 }
-
+section {
+	margin:300px 0 0 150px;
+}
 hr {
 	color: #f77;
 	background-color: #f77;
