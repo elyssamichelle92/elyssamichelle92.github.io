@@ -1,5 +1,5 @@
 body {
-	background:url("../images/stripes.png"), url("../images/background.jpg");
+	background:url("../images/stripes.png") repeat-x, url("../images/background.jpg");
 	background-color: #52596a;
 }
 section {
