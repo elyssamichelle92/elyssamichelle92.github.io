@@ -1,12 +1,12 @@
 body {
-	background:url("../images/stripes.png") repeat-x, url("../images/background.jpg");
+	background:url("../images/stripes.png") repeat-x, url("../images/background.jpg")no-repeat;
 	background-color: #52596a;
+	background-size:auto,cover;
 }
 section {
 	margin:300px 0 0 150px;
 }
 hr {
-	color: #f77;
 	background-color: #f77;
 	margin: 15px 0 15px 0;
 	width: 40px;
