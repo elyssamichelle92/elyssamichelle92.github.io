@@ -7,24 +7,10 @@ body {
 	background: url("images/table.jpg") no-repeat center center fixed;
 	background-size: cover;
 }
-
-h1 {
-	font-weight: lighter;
-	font-size: 106px;
-	font-family: 'Kristi', cursive;	color: white;
-	margin:-10px;
-}
-
-#logo {
-	margin: 100px;
-}
-
 nav {
-	text-align: center;
-    height: 38px;
-    padding: 15px;
-    border-radius: 3px;
-    margin:0 auto;
+	height: 38px;
+	padding: 15px;
+	margin:0;
 }
 
 nav ul { 
@@ -37,7 +23,6 @@ nav ul {
 
 nav li {
     float:left;
-    list-style-type: none;
     padding:0;margin:0;background-image:none;
 }
 
@@ -49,12 +34,19 @@ nav li a {
     font: normal 12px arial;
     text-align: center;
     text-decoration: none;
-    float: left;
     display: block;
-    position: relative;
-    z-index: 2;
 }
 
 nav a:hover{
 	color:maroon;
+}
+h1 {
+	font-weight: lighter;
+	font-size: 106px;
+	font-family: 'Kristi', cursive;	color: white;
+	margin:-10px;
+}
+
+#logo {
+	margin: 100px;
 }
